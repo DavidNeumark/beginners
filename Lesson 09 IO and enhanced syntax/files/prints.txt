@@ -1,0 +1,6 @@
+5
+true
+Person [id=111, name=aaa, age=22, secretPassword=111]
+5
+true
+Person [id=111, name=aaa, age=22, secretPassword=111]

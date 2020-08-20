@@ -1,0 +1,34 @@
+package b.animals.concreteTypes;
+
+import b.animals.abstractTypes.Mammal;
+import b.animals.interfaceTypes.Flyer;
+import b.animals.interfaceTypes.Navigator;
+
+public class Bat extends Mammal implements Flyer, Navigator {
+
+	@Override
+	public void speak() {
+		System.out.println("speak like a bat");
+	}
+
+	@Override
+	public void takeOff() {
+		System.out.println("takeOff like a bat");
+	}
+
+	@Override
+	public void fly() {
+		System.out.println("fly like a bat");
+	}
+
+	@Override
+	public void land() {
+		System.out.println("land like a bat");
+	}
+
+	@Override
+	public void navigate() {
+		System.out.println("navigate like a bat");
+	}
+
+}
